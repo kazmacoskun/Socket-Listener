@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Takip" Class="AracTakipDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=COSKUN-PC;Initial Catalog=Takip;Persist Security Info=True;User ID=coskunkazma" SettingsObjectName="ServerSingleUser.Properties.Settings" SettingsPropertyName="TakipConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TakipTablo" Member="TakipTablos">
+    <Type Name="TakipTablo">
+      <Column Name="[Location Inf]" Member="Location_Inf" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PortNumber" Type="System.String" DbType="NChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="Plaka" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Latitude" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="LatPos" Type="System.String" DbType="NChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="Longitude" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="LonPos" Type="System.String" DbType="NChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="Speed" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Course" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PortPlaka" Member="PortPlakas">
+    <Type Name="PortPlaka">
+      <Column Name="PlakaID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PortNumber" Type="System.String" DbType="NChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="Plaka" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

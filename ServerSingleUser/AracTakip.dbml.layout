@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AracTakip">
+  <DataContextMoniker Name="/AracTakipDataContext" />
+  <nestedChildShapes>
+    <classShape Id="20c179b0-44f3-4099-bbad-6d0d93770809" absoluteBounds="0.75, 0.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/AracTakipDataContext/TakipTablo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d683acb9-57dd-423b-ae7d-702ba9e85dc4" absoluteBounds="0.765, 1.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8c23c615-01de-419b-8bc1-23845ed5d175" absoluteBounds="3.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/AracTakipDataContext/PortPlaka" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1287c928-9543-4ebb-b8c7-a69df347aa61" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
